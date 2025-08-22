@@ -1,0 +1,21 @@
+package Arrays;
+
+public class sample3 {
+	
+	
+	static void sum(int arr[]) {
+		 int res = 0;
+		for(int i=0;i<arr.length;i++) {
+			res += arr[i];
+		}
+		System.out.println("sum of array value is : " + res);
+	}
+
+	public static void main(String[] args) {
+		int arr[] = {10,20,30,40,50};
+		sum(arr);
+		
+
+	}
+
+}

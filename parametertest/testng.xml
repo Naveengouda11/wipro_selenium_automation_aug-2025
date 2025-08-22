@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+    <test name="ParamTest"> 
+        <parameter name="url" value="https://google.com"/> 
+        <parameter name="browser" value="chrome"/> 
+        <classes> 
+            <class name="parametertest.ParameterTest"/> 
+        </classes> 
+    </test> 
+</suite>

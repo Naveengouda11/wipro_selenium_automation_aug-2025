@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-20T16:46:32 IST" name="Suites" finished-at="2025-08-20T16:46:32 IST" duration-ms="117">
+    <groups>
+    </groups>
+    <test started-at="2025-08-20T16:46:32 IST" name="Regression" finished-at="2025-08-20T16:46:32 IST" duration-ms="117">
+      <class name="testsuites.HomeTest">
+        <test-method signature="verifyProfile()[pri:0, instance:testsuites.HomeTest@f09733f]" started-at="2025-08-20T16:46:32 IST" name="verifyProfile" finished-at="2025-08-20T16:46:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProfile -->
+        <test-method signature="verifyTitle()[pri:0, instance:testsuites.HomeTest@f09733f]" started-at="2025-08-20T16:46:32 IST" name="verifyTitle" finished-at="2025-08-20T16:46:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- testsuites.HomeTest -->
+      <class name="testsuites.LoginTest">
+        <test-method signature="loginwithinvalid()[pri:0, instance:testsuites.LoginTest@121314f7]" started-at="2025-08-20T16:46:32 IST" name="loginwithinvalid" finished-at="2025-08-20T16:46:32 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalid -->
+        <test-method signature="loginwithvalid()[pri:0, instance:testsuites.LoginTest@121314f7]" started-at="2025-08-20T16:46:32 IST" name="loginwithvalid" finished-at="2025-08-20T16:46:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalid -->
+      </class> <!-- testsuites.LoginTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suites -->
+</testng-results>

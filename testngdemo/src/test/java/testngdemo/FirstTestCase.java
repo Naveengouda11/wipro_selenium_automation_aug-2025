@@ -1,0 +1,55 @@
+package testngdemo;
+import java.time.Duration;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
+public class FirstTestCase {
+	
+	WebDriver driver;
+	String res;
+	private static final Logger log =  LogManager.getLogger(FirstTest.class);
+
+	@BeforeTest
+	public void init() {
+		log.info("Starting login test - init()");
+		driver = new ChromeDriver();
+		driver.get("https://www.calculator.net/");
+		log.debug("Navigated to application");
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
+	}
+
+	@Test
+	public void apptest() {
+		driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[2]/span[2]")).click();
+		driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[1]/span[4]")).click();
+		driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[2]/span[2]")).click();
+		res = driver.findElement(By.xpath("//*[@id=\"sciOutPut\"]")).getText();
+	}
+	@AfterTest
+	public void testDown() {
+		System.out.println("Result is : " + res);
+		if(res.trim().equals("10")) {
+			System.out.println("Pass");
+		}else {
+			System.out.println("Fail");
+		}
+		driver.quit();
+		System.out.println("Brower Closed");
+		
+		log.info("Test Completed");
+	}
+
+	}
+
+
+

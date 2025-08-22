@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Suites">
+	<test name = "Regression">
+		<classes>
+			<class name = "testsuites.LoginTest"/>
+			<class name = "testsuites.HomeTest"/>
+		</classes>
+	</test>
+</suite>

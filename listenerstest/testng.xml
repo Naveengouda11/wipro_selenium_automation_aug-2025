@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ListenerSuite">
+
+    <listeners>
+        <listener class-name="listenerstest.Listener"/>
+    </listeners>
+
+   
+
+</suite>

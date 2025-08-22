@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-20T15:16:38 IST" name="Default suite" finished-at="2025-08-20T15:16:38 IST" duration-ms="146">
+    <groups>
+    </groups>
+    <test started-at="2025-08-20T15:16:38 IST" name="Default test" finished-at="2025-08-20T15:16:38 IST" duration-ms="146">
+      <class name="multithread.MultiThreadTask">
+        <test-method signature="testMultiThread()[pri:0, instance:multithread.MultiThreadTask@537f60bf]" started-at="2025-08-20T15:16:38 IST" name="testMultiThread" finished-at="2025-08-20T15:16:38 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiThread -->
+        <test-method signature="testMultiThread()[pri:0, instance:multithread.MultiThreadTask@537f60bf]" started-at="2025-08-20T15:16:38 IST" name="testMultiThread" finished-at="2025-08-20T15:16:38 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiThread -->
+        <test-method signature="testMultiThread()[pri:0, instance:multithread.MultiThreadTask@537f60bf]" started-at="2025-08-20T15:16:38 IST" name="testMultiThread" finished-at="2025-08-20T15:16:38 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiThread -->
+        <test-method signature="testMultiThread()[pri:0, instance:multithread.MultiThreadTask@537f60bf]" started-at="2025-08-20T15:16:38 IST" name="testMultiThread" finished-at="2025-08-20T15:16:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiThread -->
+        <test-method signature="testMultiThread()[pri:0, instance:multithread.MultiThreadTask@537f60bf]" started-at="2025-08-20T15:16:38 IST" name="testMultiThread" finished-at="2025-08-20T15:16:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiThread -->
+        <test-method signature="testMultiThread()[pri:0, instance:multithread.MultiThreadTask@537f60bf]" started-at="2025-08-20T15:16:38 IST" name="testMultiThread" finished-at="2025-08-20T15:16:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiThread -->
+      </class> <!-- multithread.MultiThreadTask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

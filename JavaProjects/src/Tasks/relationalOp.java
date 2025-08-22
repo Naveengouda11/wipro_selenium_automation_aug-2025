@@ -1,0 +1,14 @@
+package Tasks;
+
+public class relationalOp {
+
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 5;
+		if (a == b) {
+			System.out.println("Numbers are equal");
+		}
+
+	}
+
+}
