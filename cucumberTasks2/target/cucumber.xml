@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="30.915" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Google Search" name="Search for Cucumber BDD" time="30.251">
+<system-out><![CDATA[
+Given User is on Google Home Page...........................................passed
+When User searches for "Cucumber BDD".......................................passed
+Then Results should contain "Cucumber"......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
