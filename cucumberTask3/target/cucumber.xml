@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="19.107" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="Login Test" name="Multiple login checks - Example #1.1" time="12.733">
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+When User enters username "admin" and password "admin123"...................passed
+Then Login should be "success"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Multiple login checks - Example #1.2" time="5.365">
+<failure type="org.opentest4j.AssertionFailedError" message="expected: &lt;true&gt; but was: &lt;false&gt;">
+<![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at stepdefination.LoginStep.login_should_be(LoginStep.java:46)
+	at ✽.Login should be "failure"(classpath:features/login.feature:5)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on Login Page.................................................passed
+When User enters username "wrong" and password "test123"....................passed
+Then Login should be "failure"..............................................failed
+]]></system-out>
+</testcase>
+</testsuite>
